@@ -3,8 +3,12 @@ body {
 }
 /* Main header */
 .header1  {
-display: flex;
-background-color: #1F2937;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #1F2937;
 }
 
 .header-logo {
@@ -16,8 +20,7 @@ background-color: #1F2937;
     display: flex;
     font-size: 24px;
     color: #f9faf8;
-    align-items: center;
-    justify-content: center;
+    
     flex: 1;
 }
 
@@ -31,7 +34,9 @@ background-color: #1F2937;
 .header-links {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
  ul {
@@ -55,6 +60,7 @@ a {
 .header2 {
     display: flex;
     background-color: #1F2937;
+    flex-direction: row;
 }
 .header {
     flex: 1 0 0;
