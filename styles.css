@@ -38,7 +38,7 @@ body {
     align-items: center;
     justify-content: center;
     justify-content: flex-end;
-    width: 100vw;
+    flex: 1;
 }
 
  ul {
@@ -64,7 +64,6 @@ a {
 }
 .header {
     flex: 1;
-    flex: 1 0 0;
     padding: 5px;
     align-items: center;
     justify-content: center;
@@ -72,7 +71,7 @@ a {
 }
 
 .header-image {
-    flex: 1 0 0;
+    flex: 1;
     padding: 5px;
     margin: 0;
     align-items: center;
