@@ -1,9 +1,9 @@
 body {
+    width: 100%;
     font-family: 'Times New Roman', Times, serif;
 }
 /* Main header */
 .header1  {
-    width: 100%;
     flex-direction: row;
     align-items: center;
     justify-content: center;
