@@ -1,9 +1,15 @@
 body {
     font-family: 'Times New Roman', Times, serif;
 }
+
+div {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
 /* Main header */
 .header1  {
-    display: flex;
+    flex: 1;
     background-color: #1F2937;
 }
 
@@ -12,12 +18,12 @@ body {
     color: #f9faf8;
 }
 .header-logo {
-    display: flex;
-
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-logo1, .img-1 {
-    display: flex;
     font-size: 24px;
     color: #f9faf8;
     align-items: center;
@@ -26,7 +32,6 @@ body {
 }
 
 .img-1 {
-    display: flex;
     padding: 0;
     margin: 0;
 }
@@ -52,7 +57,7 @@ body {
 }
 a {
     text-decoration: none;
-    display: flex;
+    
     color: #E5E7EB;
 }
 
@@ -101,8 +106,10 @@ a {
 
 /* Main body */
 h3 {
+    display: flex;
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
+    flex: 1;
 }
