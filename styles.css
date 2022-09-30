@@ -1,6 +1,5 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    width: 100vw;
 }
 /* Main header */
 .header1  {
@@ -98,4 +97,12 @@ a {
     border-radius: 10%;
     padding: 4px;
     margin-top: 8px;
+}
+
+/* Main body */
+h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
 }
