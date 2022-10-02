@@ -107,6 +107,7 @@ h3 {
 
 /* Body content Quote */
 .quote {
+    display: flex;
     background-color: #E5E7EB;
     margin-top: 100px;
     padding: 30px;
@@ -125,11 +126,14 @@ h3 {
 
 /* Call to action */
 .call2-action {
+    display: flex;
     background-color: #3882F6;
     color: #f9faf8;
     margin-top: 100px;
     padding: 10px;
     margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
 }
 .call2-action .question {
     font-weight: bolder;
