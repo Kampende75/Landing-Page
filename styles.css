@@ -38,8 +38,8 @@ header .navbar li a {
     display: flex;
     background-color: #1F2937;
     min-height: 70vh;
-    
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center; 
     gap: 50px;
 }
@@ -48,13 +48,14 @@ header .navbar li a {
     max-width: 700px;
     flex: 1;
     margin: auto;
-    margin-top: 50px;
+    margin-top: auto;
     margin-left: 20px;
+    padding: 0;
     
 }
 .banner .content h2 {
     color: #f9faf8;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: bolder;
 }
 .banner .content p {
@@ -71,15 +72,14 @@ header .navbar li a {
     margin-top: 20px;
     border-radius: 13%;
     border-color: blue;
-    margin-left: 50px;
+    margin-left: 35px;
     
 }
 .banner .header-image {
-    flex: 1;
     max-width: 400px;
     margin: auto;
-    margin-right: 15px;
-    margin-top: 45px;
+    margin-right: 25px;
+    margin-top: auto;
 }
 
 /* Body content */
