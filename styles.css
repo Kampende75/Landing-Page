@@ -26,6 +26,9 @@ header .navbar li a {
     text-decoration: none;
     color: #E5E7EB;
 }
+header .navbar li a:hover {
+    color: orangered;
+}
 
 .header-logo {
     height: 44px;
@@ -34,6 +37,7 @@ header .navbar li a {
     margin-left: 2px;
 }
 
+/* Banner section */
 .banner {
     display: flex;
     background-color: #1F2937;
@@ -57,6 +61,7 @@ header .navbar li a {
     color: #f9faf8;
     font-size: 30px;
     font-weight: bolder;
+    margin-bottom: 10px;
 }
 .banner .content p {
     color: #E5E7EB;
@@ -73,12 +78,11 @@ header .navbar li a {
     border-radius: 13%;
     border-color: blue;
     margin-left: 35px;
-    
 }
 .banner .header-image {
     max-width: 400px;
     margin: auto;
-    margin-right: 25px;
+    margin-right: 20px;
     margin-top: auto;
 }
 
@@ -101,6 +105,49 @@ h3 {
     margin-top: 50px;
 }
 
+/* Body content Quote */
+.quote {
+    background-color: #E5E7EB;
+    margin-top: 100px;
+    padding: 30px;
+}
+.quote .paragraph {
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.quote .Author {
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Call to action */
+.call2-action {
+    background-color: #3882F6;
+    color: #f9faf8;
+    margin-top: 100px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.call2-action .question {
+    font-weight: bolder;
+}
+.call2-action .answer {
+color: silver;
+}
+.call2-action .call-button a {
+    padding: 4px;
+    margin: auto;
+    border-radius: 10%;
+    color: #E5E7EB;
+    text-align: center;
+    background-color: #3882F6;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: medium;
+}
 footer {
     background-color: #1F2937;
     width: 100%;
