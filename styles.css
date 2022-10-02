@@ -72,12 +72,12 @@ header .navbar li a:hover {
     background: blue;
     color: white;
     text-decoration: none;
-    padding: 8px;
+    padding: 4px;
     font-weight: 600;
     margin-top: 20px;
     border-radius: 13%;
     border-color: blue;
-    margin-left: 35px;
+    margin-left: 5px;
 }
 .banner .header-image {
     max-width: 400px;
