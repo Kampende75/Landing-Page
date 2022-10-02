@@ -132,11 +132,12 @@ h3 {
     margin-top: 100px;
     padding: 10px;
     margin-bottom: 40px;
+    align-content: center;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
 }
 .call2-action .question {
-    font-weight: bolder;
+    font-weight: bolder
 }
 .call2-action .answer {
 color: silver;
