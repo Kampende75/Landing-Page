@@ -142,24 +142,24 @@ h3 {
 .call2-action .answer {
 color: silver;
 }
-.call2-action .call-button a {
-    padding: 4px;
-    margin: auto;
-    border-radius: 10%;
+.call2-action button {
+    border-color: #E5E7EB;
     color: #E5E7EB;
-    text-align: center;
+    padding: 4px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 40px;
     background-color: #3882F6;
-    font-weight: 600;
+    font-weight: bolder;
     text-decoration: none;
-    font-size: medium;
 }
 footer {
     background-color: #1F2937;
     width: 100%;
-    padding: 8px;
+    padding: 8px 15px;
 }
 footer p {
-    text-align: start;
+    text-align: center;
     color: white;
 
 }
