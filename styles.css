@@ -154,7 +154,7 @@ header .navbar li a:hover {
     border: 4px solid #3882F6;
     border-radius: 15px;
 }
-h3 {
+h4 {
     text-align: center;
     color: #1F2937;
     font-weight: bolder;
@@ -170,7 +170,7 @@ h3 {
     padding: 30px;
 }
 .quote .paragraph {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-style: italic;
     font-weight: lighter;
@@ -179,6 +179,7 @@ h3 {
 .quote .Author {
     font-weight: bold;
     text-align: right;
+    margin-top: 25px;
 }
 
 /* Call to action */
