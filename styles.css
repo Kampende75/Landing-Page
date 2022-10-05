@@ -1,4 +1,10 @@
- 
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -31,13 +37,61 @@ header .navbar li a:hover {
 }
 
 .header-logo {
-    height: 44px;
-    width: 44px;
+    height: 84px;
+    width: 84px;
     align-items: center;
-    margin-left: 2px;
+    margin-right: auto;
 }
 
-/* Banner section */
+/* banner section */
+.banner {
+    display: flex;
+    background-color: #1F2937;
+    min-height: 70vh;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    gap: 8px;
+}
+
+.banner .content {
+    max-width: 700px;
+    margin: auto;
+    flex: 1;
+}
+.banner .content h2 {
+    color: #f9faf8;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.banner .content p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.banner .content a {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 90px;
+    margin-left: 10px;
+}
+.banner .header-image {
+    margin: auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Banner section *
 .banner {
     display: flex;
     background-color: #1F2937;
@@ -96,6 +150,9 @@ header .navbar li a:hover {
 .main-content .species {
     display: flex;
     margin: 16px;
+}
+.main-content .species img {
+    border: 1px solid #3882F6;
 }
 h3 {
     text-align: center;
