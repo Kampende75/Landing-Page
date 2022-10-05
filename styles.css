@@ -90,55 +90,6 @@ header .navbar li a:hover {
     width: 100%;
 }
 
-/* Banner section *
-.banner {
-    display: flex;
-    background-color: #1F2937;
-    min-height: 70vh;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center; 
-    gap: 50px;
-}
-
-.banner .content {
-    max-width: 700px;
-    flex: 1;
-    margin: auto;
-    margin-top: auto;
-    margin-left: 20px;
-    padding: 0;
-    
-}
-.banner .content h2 {
-    color: #f9faf8;
-    font-size: 30px;
-    font-weight: bolder;
-    margin-bottom: 10px;
-}
-.banner .content p {
-    color: #E5E7EB;
-    font-size: 18px;
-}
-.banner .content a {
-    display: inline-block;
-    background: blue;
-    color: white;
-    text-decoration: none;
-    padding: 4px;
-    font-weight: 600;
-    margin-top: 20px;
-    border-radius: 13%;
-    border-color: blue;
-    margin-left: 5px;
-}
-.banner .header-image {
-    max-width: 400px;
-    margin: auto;
-    margin-right: 20px;
-    margin-top: auto;
-}
-
 /* Body content */
 .main-content {
     display: flex;
